@@ -15,3 +15,21 @@ el modelo por defecto esta diseñado para ser un asistente y activar funciones a
 **clma=[lugar] es el comando usado por la ai despues de que le soliciten el clima en una region especifica**
 <br>
 **bicacion=[] es el comado usado para que a la ai se le den datos de la ubicacion**
+## configuracion de modelo:
+CONFIG = {
+<br>
+    "batch_size": 16,
+    <br>
+    "block_size": 256,
+    <br>
+    "n_embd": 512,
+    <br>
+    "n_head": 8,
+    <br>
+    "n_layer": 8,
+    <br>
+    "dropout": 0.1,
+    <br>
+    "learning_rate": 5e-4,
+    <br>
+}
